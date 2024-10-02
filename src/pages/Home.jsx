@@ -28,7 +28,7 @@ export default function Home() {
           </div>
         </div>
         <div className='RIGHT'>
-
+          <img src="" alt="" />
         </div>
       </main>
       <footer className='flex justify-center py-[30px] bottom-0
