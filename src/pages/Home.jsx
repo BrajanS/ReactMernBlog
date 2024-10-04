@@ -1,7 +1,25 @@
 import React from "react";
 import Image1 from "../images/image.png";
+import { useEffect } from "react";
+import { getSuggestedQuery } from "@testing-library/react";
 
 export default function Home() {
+  // const getUser = async ()=>{
+  //   const response = await fetch('', {
+  //      method: 'GET',
+  //      headers: {
+  //         'authorization': 'Bearer ${token}',
+  //         'Content-type': 'application/json' 
+  //       } 
+  //  })  
+  //  if(response.ok){
+  //   const data = await response.json()
+  //   setUsers(data)
+  //  }
+  // }
+  useEffect(()=>{
+    getUser()
+  },[])
   return (
     <div>
       <main className="mt-[50px] bg-[#FFFFFF] border-solid border-[black] border-[1px] mx-[70px] pt-[30px] px-[30px] flex gap-[30px]">
