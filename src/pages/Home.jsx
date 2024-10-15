@@ -18,11 +18,11 @@ export default function Home() {
   //  }
   // }
   useEffect(()=>{
-    getUser()
+    // getUser()
   },[])
   return (
     <div>
-      <main className="mt-[50px] bg-[#FFFFFF] border-solid border-[black] border-[1px] mx-[70px] pt-[30px] px-[30px] flex gap-[30px]">
+      <main className="mt-[50px] bg-[#FFFFFF] border-solid border-[black] border-[1px] mx-[70px] py-[30px] px-[30px] flex gap-[30px]">
         <div className="LEFT w-[50%]">
           <div>
             <img className="w-[100%]" src={Image1} alt="" />
